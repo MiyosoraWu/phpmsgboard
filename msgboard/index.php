@@ -38,9 +38,8 @@
         </style>	
     </head>
 <body class="ui-mobile-viewport ui-overlay-a"> 
-    <div >
-        <div >
-            <div style=" float:center; width:720px;margin:0px 10px ; ">
+    <div style ="margin: 0px auto;">
+            <div style=" position:absolute; top:1%;right:25%;left:25%;  ">
                 <div  data-role="collapsible" data-theme="b" class="ui-collapsible ui-collapsible-inset ui-corner-all ui-collapsible-themed-content" >
                     <h3 class="ui-collapsible-heading">
                         新增文章
@@ -153,13 +152,6 @@
                     ?>
                 </div>
             </div>
-            <div class="ui-corner-all custom-corners" style="float:left; margin:10px 0px auto;" >
-                <div>
-
-                </div>
-            </div>
-
         </div>
-    </div>
 </body>
 </html>
