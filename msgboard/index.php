@@ -59,9 +59,7 @@
                                         ."<li data-role='divider ' class='ui-btn ui-btn-b ui-li-static ui-body-inherit ui-first-child'>發文者：".$row["nick"]."</li>"
                                             ."<li data-role='footer' class='ui-li-static ui-body-inherit ui-last-child ui-footer ui-bar-inherit' role='contentinfo'>"
                                                 ."<pre><font  style='word-break: break-all;font-size:18px;'>".$row["msg"]."</font></pre>"
-                                            ."</li>"
-                                            ."<div  data-role='collapsible'data-collapsed='false' data-theme='a' class='ui-collapsible ui-collapsible-inset ui-corner-all ui-collapsible-themed-content' >"
-                                                        ."<h3>回應留言</h3>";
+                                            ."</li>";
                                             $reply_sql = "select * from reply where id=".$row["id"]." ;";
                                             if($reply_result =$conn->query($reply_sql)){ 
                                                 if($reply_row_num = mysqli_num_rows($reply_result)>0){
@@ -106,8 +104,7 @@
                                                     echo "目前沒有留言回應喔~~";
                                                 }                                               
                                                 }
-                                        echo "</div>"
-                                            ."<li data-role='footer' class=' ui-li-static ui-body-inherit ui-last-child ui-footer ui-bar-inherit' role='contentinfo'>"
+                                        echo "<li data-role='footer' class=' ui-li-static ui-body-inherit ui-last-child ui-footer ui-bar-inherit' role='contentinfo'>"
                                             ."<table width='100%' >"
                                                 ."<tr>"
                                                 ."<td style='width:98px'>"
