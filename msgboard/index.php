@@ -101,7 +101,7 @@
                                                         ."</div>";
                                                 }
                                                 }else {
-                                                    echo "目前沒有留言回應喔~~";
+                                                    echo "<li>目前沒有留言回應喔~~</li>";
                                                 }                                               
                                                 }
                                         echo "<li data-role='footer' class=' ui-li-static ui-body-inherit ui-last-child ui-footer ui-bar-inherit' role='contentinfo'>"
