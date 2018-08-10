@@ -13,11 +13,12 @@ if ($conn->connect_error) {
     die ("Connection failed: " .  $conn->connect_error);
 }
 ?>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><base href=".">
 <title>留言板</title>
-<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="http://code. jquery. com/mobile/1. 4. 5/jquery. mobile-1. 4. 5. min. css" />
-    <script src="http://code. jquery. com/jquery-1. 11. 1. min. js"></script>
-    <script src="http://code. jquery. com/mobile/1. 4. 5/jquery. mobile-1. 4. 5. min. js"></script>	
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>	
 </head>
 <body class="ui-mobile-viewport ui-overlay-a"> 
     <div style ="margin: 0px auto;">
